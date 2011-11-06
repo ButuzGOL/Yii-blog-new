@@ -1,0 +1,1274 @@
+2011/11/03 07:58:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php:314
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('favicon.ico')
+#1 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/11/03 07:58:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php:314
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('favicon.ico')
+#1 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/11/03 07:58:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php:314
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('favicon.ico')
+#1 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/11/03 08:15:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "samij-malenkij-tttorial-kohana".' in /home/pamparam/pamparam.net/www/framework/web/CController.php:439
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CController.php(262): CController->missingAction('samij-malenkij-...')
+#1 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('samij-malenkij-...')
+#2 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('post/samij-male...')
+#3 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#4 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#5 {main} REQUEST_URI=/post/samij-malenkij-tttorial-kohana/++++++Result:+chosen+nickname+"unjuccuff";+success;+BB-code+not+working;
+2011/11/03 08:15:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "samij-malenkij-tttorial-kohana".' in /home/pamparam/pamparam.net/www/framework/web/CController.php:439
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CController.php(262): CController->missingAction('samij-malenkij-...')
+#1 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('samij-malenkij-...')
+#2 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('post/samij-male...')
+#3 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#4 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#5 {main} REQUEST_URI=/post/samij-malenkij-tttorial-kohana/++++++result:+chosen+nickname+"unjuccuff";+success;+bb-code+not+working;
+2011/11/03 08:30:17 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebUser.status".' in /home/pamparam/pamparam.net/www/framework/base/CComponent.php:120
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/auth/CWebUser.php(97): CComponent->__get('status')
+#1 /home/pamparam/pamparam.net/www/protected/models/Bookmark.php(38): CWebUser->__get('status')
+#2 /home/pamparam/pamparam.net/www/framework/db/ar/CActiveRecord.php(2266): Bookmark->relations()
+#3 /home/pamparam/pamparam.net/www/framework/db/ar/CActiveRecord.php(656): CActiveRecordMetaData->__construct(Object(Bookmark))
+#4 /home/pamparam/pamparam.net/www/framework/db/ar/CActiveFinder.php(256): CActiveRecord::model('Bookmark')
+#5 /home/pamparam/pamparam.net/www/framework/db/ar/CActiveFinder.php(54): CActiveFinder->buildJoinTree(Object(CJoinElement), 'bookmarks')
+#6 /home/pamparam/pamparam.net/www/framework/db/ar/CActiveRecord.php(563): CActiveFinder->__construct(Object(User), 'bookmarks')
+#7 /home/pamparam/pamparam.net/www/framework/db/ar/CActiveRecord.php(432): CActiveRecord->getRelated('bookmarks')
+#8 /home/pamparam/pamparam.net/www/themes/pamparam/views/user/show.php(34): CActiveRecord->__get('bookmarks')
+#9 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#10 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#11 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#12 /home/pamparam/pamparam.net/www/framework/web/CController.php(645): CController->renderPartial('show', Array, true)
+#13 /home/pamparam/pamparam.net/www/protected/controllers/UserController.php(78): CController->render('show', Array)
+#14 /home/pamparam/pamparam.net/www/framework/web/actions/CInlineAction.php(32): UserController->actionShow()
+#15 /home/pamparam/pamparam.net/www/framework/web/CController.php(300): CInlineAction->run()
+#16 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(129): CController->runAction(Object(CInlineAction))
+#17 /home/pamparam/pamparam.net/www/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#18 /home/pamparam/pamparam.net/www/framework/web/CController.php(957): CFilter->filter(Object(CFilterChain))
+#19 /home/pamparam/pamparam.net/www/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#20 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#21 /home/pamparam/pamparam.net/www/framework/web/CController.php(283): CFilterChain->run()
+#22 /home/pamparam/pamparam.net/www/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('show')
+#24 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('user/show')
+#25 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#26 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#27 {main} REQUEST_URI=/user/27
+2011/11/03 08:32:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "http:".' in /home/pamparam/pamparam.net/www/framework/web/CController.php:439
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CController.php(262): CController->missingAction('http:')
+#1 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('http:')
+#2 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('post/http:')
+#3 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#4 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#5 {main} REQUEST_URI=/post/http:/
+2011/11/03 08:46:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие """.' in /home/pamparam/pamparam.net/www/framework/web/CController.php:439
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CController.php(262): CController->missingAction('"')
+#1 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('"')
+#2 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('post/"')
+#3 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#4 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#5 {main} REQUEST_URI=/post/"
+2011/11/03 09:11:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php:314
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('favicon.ico')
+#1 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/11/03 09:59:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php:314
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('favicon.ico')
+#1 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/11/03 12:01:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php:314
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('favicon.ico')
+#1 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/11/03 13:38:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php:314
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('favicon.ico')
+#1 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/11/03 16:41:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "avtorizaciya-na-osnove-zend-au'".' in /home/pamparam/pamparam.net/www/framework/web/CController.php:439
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CController.php(262): CController->missingAction('avtorizaciya-na...')
+#1 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('avtorizaciya-na...')
+#2 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('post/avtorizaci...')
+#3 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#4 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#5 {main} REQUEST_URI=/post/avtorizaciya-na-osnove-zend-au'
+2011/11/03 18:54:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php:314
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('favicon.ico')
+#1 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/11/03 21:36:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php:314
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('favicon.ico')
+#1 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/11/03 21:43:14 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebUser.status".' in /home/pamparam/pamparam.net/www/framework/base/CComponent.php:120
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/auth/CWebUser.php(97): CComponent->__get('status')
+#1 /home/pamparam/pamparam.net/www/themes/pamparam/views/post/_post.php(44): CWebUser->__get('status')
+#2 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#3 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#4 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#5 /home/pamparam/pamparam.net/www/themes/pamparam/views/category/show.php(6): CController->renderPartial('../post/_post', Array)
+#6 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#7 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#8 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#9 /home/pamparam/pamparam.net/www/framework/web/CController.php(645): CController->renderPartial('show', Array, true)
+#10 /home/pamparam/pamparam.net/www/protected/controllers/CategoryController.php(68): CController->render('show', Array)
+#11 /home/pamparam/pamparam.net/www/framework/web/actions/CInlineAction.php(32): CategoryController->actionShow()
+#12 /home/pamparam/pamparam.net/www/framework/web/CController.php(300): CInlineAction->run()
+#13 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(129): CController->runAction(Object(CInlineAction))
+#14 /home/pamparam/pamparam.net/www/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#15 /home/pamparam/pamparam.net/www/framework/web/CController.php(957): CFilter->filter(Object(CFilterChain))
+#16 /home/pamparam/pamparam.net/www/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#18 /home/pamparam/pamparam.net/www/framework/web/CController.php(283): CFilterChain->run()
+#19 /home/pamparam/pamparam.net/www/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('show')
+#21 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('category/show')
+#22 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#23 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#24 {main} REQUEST_URI=/cate/kino
+2011/11/03 22:22:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие """.' in /home/pamparam/pamparam.net/www/framework/web/CController.php:439
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CController.php(262): CController->missingAction('"')
+#1 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('"')
+#2 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('post/"')
+#3 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#4 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#5 {main} REQUEST_URI=/post/"
+2011/11/03 22:30:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "biblioteka-realizovanaya-na".' in /home/pamparam/pamparam.net/www/framework/web/CController.php:439
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CController.php(262): CController->missingAction('biblioteka-real...')
+#1 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('biblioteka-real...')
+#2 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('post/biblioteka...')
+#3 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#4 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#5 {main} REQUEST_URI=/post/biblioteka-realizovanaya-na/%255C%2522/
+2011/11/03 22:30:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "biblioteka-realizovanaya-na".' in /home/pamparam/pamparam.net/www/framework/web/CController.php:439
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CController.php(262): CController->missingAction('biblioteka-real...')
+#1 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('biblioteka-real...')
+#2 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('post/biblioteka...')
+#3 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#4 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#5 {main} REQUEST_URI=/post/biblioteka-realizovanaya-na/%255C%2522/
+2011/11/03 22:30:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "biblioteka-realizovanaya-na/%5C%22".' in /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php:314
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('biblioteka-real...')
+#1 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/biblioteka-realizovanaya-na/%255C%2522/
+2011/11/04 01:00:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "biblioteka-realizovanaya-na".' in /home/pamparam/pamparam.net/www/framework/web/CController.php:439
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CController.php(262): CController->missingAction('biblioteka-real...')
+#1 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('biblioteka-real...')
+#2 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('post/biblioteka...')
+#3 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#4 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#5 {main} REQUEST_URI=/post/biblioteka-realizovanaya-na/index.php
+2011/11/04 01:00:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "biblioteka-realizovanaya-na/index.php".' in /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php:314
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('biblioteka-real...')
+#1 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/biblioteka-realizovanaya-na/index.php
+2011/11/04 01:01:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "biblioteka-realizovanaya-na".' in /home/pamparam/pamparam.net/www/framework/web/CController.php:439
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CController.php(262): CController->missingAction('biblioteka-real...')
+#1 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('biblioteka-real...')
+#2 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('post/biblioteka...')
+#3 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#4 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#5 {main} REQUEST_URI=/post/biblioteka-realizovanaya-na/index.php
+2011/11/04 01:01:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "biblioteka-realizovanaya-na/index.php".' in /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php:314
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('biblioteka-real...')
+#1 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/biblioteka-realizovanaya-na/index.php
+2011/11/04 02:04:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "http:".' in /home/pamparam/pamparam.net/www/framework/web/CController.php:439
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CController.php(262): CController->missingAction('http:')
+#1 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('http:')
+#2 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('post/http:')
+#3 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#4 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#5 {main} REQUEST_URI=/post/http:/
+2011/11/04 02:33:14 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebUser.status".' in /home/pamparam/pamparam.net/www/framework/base/CComponent.php:120
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/auth/CWebUser.php(97): CComponent->__get('status')
+#1 /home/pamparam/pamparam.net/www/themes/pamparam/views/post/_post.php(44): CWebUser->__get('status')
+#2 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#3 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#4 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#5 /home/pamparam/pamparam.net/www/themes/pamparam/views/category/show.php(6): CController->renderPartial('../post/_post', Array)
+#6 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#7 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#8 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#9 /home/pamparam/pamparam.net/www/framework/web/CController.php(645): CController->renderPartial('show', Array, true)
+#10 /home/pamparam/pamparam.net/www/protected/controllers/CategoryController.php(68): CController->render('show', Array)
+#11 /home/pamparam/pamparam.net/www/framework/web/actions/CInlineAction.php(32): CategoryController->actionShow()
+#12 /home/pamparam/pamparam.net/www/framework/web/CController.php(300): CInlineAction->run()
+#13 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(129): CController->runAction(Object(CInlineAction))
+#14 /home/pamparam/pamparam.net/www/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#15 /home/pamparam/pamparam.net/www/framework/web/CController.php(957): CFilter->filter(Object(CFilterChain))
+#16 /home/pamparam/pamparam.net/www/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#18 /home/pamparam/pamparam.net/www/framework/web/CController.php(283): CFilterChain->run()
+#19 /home/pamparam/pamparam.net/www/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('show')
+#21 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('category/show')
+#22 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#23 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#24 {main} REQUEST_URI=/cate/frameworks
+2011/11/04 04:36:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "yii-blog-new".' in /home/pamparam/pamparam.net/www/framework/web/CController.php:439
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CController.php(262): CController->missingAction('yii-blog-new')
+#1 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('yii-blog-new')
+#2 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('post/yii-blog-n...')
+#3 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#4 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#5 {main} REQUEST_URI=/post/yii-blog-new/trackback
+2011/11/04 08:15:09 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebUser.status".' in /home/pamparam/pamparam.net/www/framework/base/CComponent.php:120
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/auth/CWebUser.php(97): CComponent->__get('status')
+#1 /home/pamparam/pamparam.net/www/themes/pamparam/views/post/_post.php(44): CWebUser->__get('status')
+#2 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#3 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#4 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#5 /home/pamparam/pamparam.net/www/themes/pamparam/views/category/show.php(6): CController->renderPartial('../post/_post', Array)
+#6 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#7 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#8 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#9 /home/pamparam/pamparam.net/www/framework/web/CController.php(645): CController->renderPartial('show', Array, true)
+#10 /home/pamparam/pamparam.net/www/protected/controllers/CategoryController.php(68): CController->render('show', Array)
+#11 /home/pamparam/pamparam.net/www/framework/web/actions/CInlineAction.php(32): CategoryController->actionShow()
+#12 /home/pamparam/pamparam.net/www/framework/web/CController.php(300): CInlineAction->run()
+#13 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(129): CController->runAction(Object(CInlineAction))
+#14 /home/pamparam/pamparam.net/www/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#15 /home/pamparam/pamparam.net/www/framework/web/CController.php(957): CFilter->filter(Object(CFilterChain))
+#16 /home/pamparam/pamparam.net/www/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#18 /home/pamparam/pamparam.net/www/framework/web/CController.php(283): CFilterChain->run()
+#19 /home/pamparam/pamparam.net/www/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('show')
+#21 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('category/show')
+#22 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#23 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#24 {main} REQUEST_URI=/cate/interesnoe
+2011/11/04 08:36:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php:314
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('favicon.ico')
+#1 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/11/04 08:45:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "samij-malenkij-tttorial-kohana".' in /home/pamparam/pamparam.net/www/framework/web/CController.php:439
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CController.php(262): CController->missingAction('samij-malenkij-...')
+#1 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('samij-malenkij-...')
+#2 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('post/samij-male...')
+#3 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#4 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#5 {main} REQUEST_URI=/post/samij-malenkij-tttorial-kohana/trackback
+2011/11/04 09:15:43 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebUser.status".' in /home/pamparam/pamparam.net/www/framework/base/CComponent.php:120
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/auth/CWebUser.php(97): CComponent->__get('status')
+#1 /home/pamparam/pamparam.net/www/themes/pamparam/views/post/_post.php(44): CWebUser->__get('status')
+#2 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#3 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#4 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#5 /home/pamparam/pamparam.net/www/themes/pamparam/views/category/show.php(6): CController->renderPartial('../post/_post', Array)
+#6 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#7 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#8 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#9 /home/pamparam/pamparam.net/www/framework/web/CController.php(645): CController->renderPartial('show', Array, true)
+#10 /home/pamparam/pamparam.net/www/protected/controllers/CategoryController.php(68): CController->render('show', Array)
+#11 /home/pamparam/pamparam.net/www/framework/web/actions/CInlineAction.php(32): CategoryController->actionShow()
+#12 /home/pamparam/pamparam.net/www/framework/web/CController.php(300): CInlineAction->run()
+#13 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(129): CController->runAction(Object(CInlineAction))
+#14 /home/pamparam/pamparam.net/www/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#15 /home/pamparam/pamparam.net/www/framework/web/CController.php(957): CFilter->filter(Object(CFilterChain))
+#16 /home/pamparam/pamparam.net/www/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#18 /home/pamparam/pamparam.net/www/framework/web/CController.php(283): CFilterChain->run()
+#19 /home/pamparam/pamparam.net/www/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('show')
+#21 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('category/show')
+#22 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#23 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#24 {main} REQUEST_URI=/cate/troki
+2011/11/04 11:01:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "biblioteka-realizovanaya-na".' in /home/pamparam/pamparam.net/www/framework/web/CController.php:439
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CController.php(262): CController->missingAction('biblioteka-real...')
+#1 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('biblioteka-real...')
+#2 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('post/biblioteka...')
+#3 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#4 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#5 {main} REQUEST_URI=/post/biblioteka-realizovanaya-na/+++++++++Result:+%e7%e0%f0%e5%e3%e8%f1%f2%f0%e8%f0%ee%e2%e0%eb%e8%f1%fc+(%e2%ea%eb%fe%f7%e5%ed+%f0%e5%e6%e8%ec+%f2%ee%eb%fc%ea%ee+%f0%e5%e3%e8%f1%f2%f0%e0%f6%e8%e8);
+2011/11/04 11:01:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "biblioteka-realizovanaya-na".' in /home/pamparam/pamparam.net/www/framework/web/CController.php:439
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CController.php(262): CController->missingAction('biblioteka-real...')
+#1 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('biblioteka-real...')
+#2 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('post/biblioteka...')
+#3 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#4 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#5 {main} REQUEST_URI=/post/biblioteka-realizovanaya-na/+++++++++Result:+%e7%e0%f0%e5%e3%e8%f1%f2%f0%e8%f0%ee%e2%e0%eb%e8%f1%fc+(%e2%ea%eb%fe%f7%e5%ed+%f0%e5%e6%e8%ec+%f2%ee%eb%fc%ea%ee+%f0%e5%e3%e8%f1%f2%f0%e0%f6%e8%e8);
+2011/11/04 11:01:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "biblioteka-realizovanaya-na/         Result: ������������������ (������� ����� ������ �����������);".' in /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php:314
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('biblioteka-real...')
+#1 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/biblioteka-realizovanaya-na/+++++++++Result:+%e7%e0%f0%e5%e3%e8%f1%f2%f0%e8%f0%ee%e2%e0%eb%e8%f1%fc+(%e2%ea%eb%fe%f7%e5%ed+%f0%e5%e6%e8%ec+%f2%ee%eb%fc%ea%ee+%f0%e5%e3%e8%f1%f2%f0%e0%f6%e8%e8);
+2011/11/04 13:42:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php:314
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('favicon.ico')
+#1 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/11/04 16:20:07 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebUser.status".' in /home/pamparam/pamparam.net/www/framework/base/CComponent.php:120
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/auth/CWebUser.php(97): CComponent->__get('status')
+#1 /home/pamparam/pamparam.net/www/themes/pamparam/views/user/show.php(28): CWebUser->__get('status')
+#2 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#3 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#4 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#5 /home/pamparam/pamparam.net/www/framework/web/CController.php(645): CController->renderPartial('show', Array, true)
+#6 /home/pamparam/pamparam.net/www/protected/controllers/UserController.php(78): CController->render('show', Array)
+#7 /home/pamparam/pamparam.net/www/framework/web/actions/CInlineAction.php(32): UserController->actionShow()
+#8 /home/pamparam/pamparam.net/www/framework/web/CController.php(300): CInlineAction->run()
+#9 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(129): CController->runAction(Object(CInlineAction))
+#10 /home/pamparam/pamparam.net/www/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#11 /home/pamparam/pamparam.net/www/framework/web/CController.php(957): CFilter->filter(Object(CFilterChain))
+#12 /home/pamparam/pamparam.net/www/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#13 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#14 /home/pamparam/pamparam.net/www/framework/web/CController.php(283): CFilterChain->run()
+#15 /home/pamparam/pamparam.net/www/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('show')
+#17 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('user/show')
+#18 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#19 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#20 {main} REQUEST_URI=/user/1
+2011/11/04 18:10:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php:314
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('favicon.ico')
+#1 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/11/04 19:45:26 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebUser.status".' in /home/pamparam/pamparam.net/www/framework/base/CComponent.php:120
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/auth/CWebUser.php(97): CComponent->__get('status')
+#1 /home/pamparam/pamparam.net/www/themes/pamparam/views/post/_post.php(44): CWebUser->__get('status')
+#2 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#3 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#4 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#5 /home/pamparam/pamparam.net/www/themes/pamparam/views/category/show.php(6): CController->renderPartial('../post/_post', Array)
+#6 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#7 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#8 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#9 /home/pamparam/pamparam.net/www/framework/web/CController.php(645): CController->renderPartial('show', Array, true)
+#10 /home/pamparam/pamparam.net/www/protected/controllers/CategoryController.php(68): CController->render('show', Array)
+#11 /home/pamparam/pamparam.net/www/framework/web/actions/CInlineAction.php(32): CategoryController->actionShow()
+#12 /home/pamparam/pamparam.net/www/framework/web/CController.php(300): CInlineAction->run()
+#13 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(129): CController->runAction(Object(CInlineAction))
+#14 /home/pamparam/pamparam.net/www/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#15 /home/pamparam/pamparam.net/www/framework/web/CController.php(957): CFilter->filter(Object(CFilterChain))
+#16 /home/pamparam/pamparam.net/www/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#18 /home/pamparam/pamparam.net/www/framework/web/CController.php(283): CFilterChain->run()
+#19 /home/pamparam/pamparam.net/www/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('show')
+#21 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('category/show')
+#22 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#23 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#24 {main} REQUEST_URI=/cate/troki
+2011/11/04 23:58:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "biblioteka-realizovanaya-na".' in /home/pamparam/pamparam.net/www/framework/web/CController.php:439
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CController.php(262): CController->missingAction('biblioteka-real...')
+#1 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('biblioteka-real...')
+#2 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('post/biblioteka...')
+#3 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#4 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#5 {main} REQUEST_URI=/post/biblioteka-realizovanaya-na/+++++++++Result:+%e7%e0%f0%e5%e3%e8%f1%f2%f0%e8%f0%ee%e2%e0%eb%e8%f1%fc+(%e2%ea%eb%fe%f7%e5%ed+%f0%e5%e6%e8%ec+%f2%ee%eb%fc%ea%ee+%f0%e5%e3%e8%f1%f2%f0%e0%f6%e8%e8);
+2011/11/04 23:58:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "biblioteka-realizovanaya-na".' in /home/pamparam/pamparam.net/www/framework/web/CController.php:439
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CController.php(262): CController->missingAction('biblioteka-real...')
+#1 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('biblioteka-real...')
+#2 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('post/biblioteka...')
+#3 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#4 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#5 {main} REQUEST_URI=/post/biblioteka-realizovanaya-na/+++++++++Result:+%e7%e0%f0%e5%e3%e8%f1%f2%f0%e8%f0%ee%e2%e0%eb%e8%f1%fc+(%e2%ea%eb%fe%f7%e5%ed+%f0%e5%e6%e8%ec+%f2%ee%eb%fc%ea%ee+%f0%e5%e3%e8%f1%f2%f0%e0%f6%e8%e8);
+2011/11/04 23:58:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "biblioteka-realizovanaya-na/         Result: ������������������ (������� ����� ������ �����������);".' in /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php:314
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('biblioteka-real...')
+#1 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/biblioteka-realizovanaya-na/+++++++++Result:+%e7%e0%f0%e5%e3%e8%f1%f2%f0%e8%f0%ee%e2%e0%eb%e8%f1%fc+(%e2%ea%eb%fe%f7%e5%ed+%f0%e5%e6%e8%ec+%f2%ee%eb%fc%ea%ee+%f0%e5%e3%e8%f1%f2%f0%e0%f6%e8%e8);
+2011/11/05 00:37:32 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebUser.status".' in /home/pamparam/pamparam.net/www/framework/base/CComponent.php:120
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/auth/CWebUser.php(97): CComponent->__get('status')
+#1 /home/pamparam/pamparam.net/www/protected/controllers/PageController.php(167): CWebUser->__get('status')
+#2 /home/pamparam/pamparam.net/www/protected/controllers/PageController.php(54): PageController->loadPageSlug()
+#3 /home/pamparam/pamparam.net/www/framework/web/actions/CInlineAction.php(32): PageController->actionShow()
+#4 /home/pamparam/pamparam.net/www/framework/web/CController.php(300): CInlineAction->run()
+#5 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(129): CController->runAction(Object(CInlineAction))
+#6 /home/pamparam/pamparam.net/www/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /home/pamparam/pamparam.net/www/framework/web/CController.php(957): CFilter->filter(Object(CFilterChain))
+#8 /home/pamparam/pamparam.net/www/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#10 /home/pamparam/pamparam.net/www/framework/web/CController.php(283): CFilterChain->run()
+#11 /home/pamparam/pamparam.net/www/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('show')
+#13 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('page/show')
+#14 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#15 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#16 {main} REQUEST_URI=/page/pro-menya
+2011/11/05 02:56:16 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebUser.status".' in /home/pamparam/pamparam.net/www/framework/base/CComponent.php:120
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/auth/CWebUser.php(97): CComponent->__get('status')
+#1 /home/pamparam/pamparam.net/www/themes/pamparam/views/post/_post.php(44): CWebUser->__get('status')
+#2 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#3 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#4 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#5 /home/pamparam/pamparam.net/www/themes/pamparam/views/category/show.php(6): CController->renderPartial('../post/_post', Array)
+#6 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#7 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#8 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#9 /home/pamparam/pamparam.net/www/framework/web/CController.php(645): CController->renderPartial('show', Array, true)
+#10 /home/pamparam/pamparam.net/www/protected/controllers/CategoryController.php(68): CController->render('show', Array)
+#11 /home/pamparam/pamparam.net/www/framework/web/actions/CInlineAction.php(32): CategoryController->actionShow()
+#12 /home/pamparam/pamparam.net/www/framework/web/CController.php(300): CInlineAction->run()
+#13 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(129): CController->runAction(Object(CInlineAction))
+#14 /home/pamparam/pamparam.net/www/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#15 /home/pamparam/pamparam.net/www/framework/web/CController.php(957): CFilter->filter(Object(CFilterChain))
+#16 /home/pamparam/pamparam.net/www/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#18 /home/pamparam/pamparam.net/www/framework/web/CController.php(283): CFilterChain->run()
+#19 /home/pamparam/pamparam.net/www/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('show')
+#21 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('category/show')
+#22 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#23 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#24 {main} REQUEST_URI=/cate/frameworks
+2011/11/05 02:57:12 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebUser.status".' in /home/pamparam/pamparam.net/www/framework/base/CComponent.php:120
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/auth/CWebUser.php(97): CComponent->__get('status')
+#1 /home/pamparam/pamparam.net/www/themes/pamparam/views/post/_post.php(44): CWebUser->__get('status')
+#2 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#3 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#4 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#5 /home/pamparam/pamparam.net/www/themes/pamparam/views/category/show.php(6): CController->renderPartial('../post/_post', Array)
+#6 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#7 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#8 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#9 /home/pamparam/pamparam.net/www/framework/web/CController.php(645): CController->renderPartial('show', Array, true)
+#10 /home/pamparam/pamparam.net/www/protected/controllers/CategoryController.php(68): CController->render('show', Array)
+#11 /home/pamparam/pamparam.net/www/framework/web/actions/CInlineAction.php(32): CategoryController->actionShow()
+#12 /home/pamparam/pamparam.net/www/framework/web/CController.php(300): CInlineAction->run()
+#13 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(129): CController->runAction(Object(CInlineAction))
+#14 /home/pamparam/pamparam.net/www/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#15 /home/pamparam/pamparam.net/www/framework/web/CController.php(957): CFilter->filter(Object(CFilterChain))
+#16 /home/pamparam/pamparam.net/www/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#18 /home/pamparam/pamparam.net/www/framework/web/CController.php(283): CFilterChain->run()
+#19 /home/pamparam/pamparam.net/www/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('show')
+#21 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('category/show')
+#22 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#23 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#24 {main} REQUEST_URI=/cate/mtzika
+2011/11/05 02:58:59 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebUser.status".' in /home/pamparam/pamparam.net/www/framework/base/CComponent.php:120
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/auth/CWebUser.php(97): CComponent->__get('status')
+#1 /home/pamparam/pamparam.net/www/themes/pamparam/views/post/_post.php(44): CWebUser->__get('status')
+#2 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#3 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#4 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#5 /home/pamparam/pamparam.net/www/themes/pamparam/views/category/show.php(6): CController->renderPartial('../post/_post', Array)
+#6 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#7 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#8 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#9 /home/pamparam/pamparam.net/www/framework/web/CController.php(645): CController->renderPartial('show', Array, true)
+#10 /home/pamparam/pamparam.net/www/protected/controllers/CategoryController.php(68): CController->render('show', Array)
+#11 /home/pamparam/pamparam.net/www/framework/web/actions/CInlineAction.php(32): CategoryController->actionShow()
+#12 /home/pamparam/pamparam.net/www/framework/web/CController.php(300): CInlineAction->run()
+#13 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(129): CController->runAction(Object(CInlineAction))
+#14 /home/pamparam/pamparam.net/www/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#15 /home/pamparam/pamparam.net/www/framework/web/CController.php(957): CFilter->filter(Object(CFilterChain))
+#16 /home/pamparam/pamparam.net/www/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#18 /home/pamparam/pamparam.net/www/framework/web/CController.php(283): CFilterChain->run()
+#19 /home/pamparam/pamparam.net/www/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('show')
+#21 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('category/show')
+#22 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#23 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#24 {main} REQUEST_URI=/cate/igri
+2011/11/05 03:04:02 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebUser.status".' in /home/pamparam/pamparam.net/www/framework/base/CComponent.php:120
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/auth/CWebUser.php(97): CComponent->__get('status')
+#1 /home/pamparam/pamparam.net/www/themes/pamparam/views/post/_post.php(44): CWebUser->__get('status')
+#2 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#3 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#4 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#5 /home/pamparam/pamparam.net/www/themes/pamparam/views/category/show.php(6): CController->renderPartial('../post/_post', Array)
+#6 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#7 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#8 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#9 /home/pamparam/pamparam.net/www/framework/web/CController.php(645): CController->renderPartial('show', Array, true)
+#10 /home/pamparam/pamparam.net/www/protected/controllers/CategoryController.php(68): CController->render('show', Array)
+#11 /home/pamparam/pamparam.net/www/framework/web/actions/CInlineAction.php(32): CategoryController->actionShow()
+#12 /home/pamparam/pamparam.net/www/framework/web/CController.php(300): CInlineAction->run()
+#13 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(129): CController->runAction(Object(CInlineAction))
+#14 /home/pamparam/pamparam.net/www/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#15 /home/pamparam/pamparam.net/www/framework/web/CController.php(957): CFilter->filter(Object(CFilterChain))
+#16 /home/pamparam/pamparam.net/www/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#18 /home/pamparam/pamparam.net/www/framework/web/CController.php(283): CFilterChain->run()
+#19 /home/pamparam/pamparam.net/www/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('show')
+#21 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('category/show')
+#22 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#23 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#24 {main} REQUEST_URI=/cate/kino
+2011/11/05 04:09:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "biblioteka-realizovanaya-na".' in /home/pamparam/pamparam.net/www/framework/web/CController.php:439
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CController.php(262): CController->missingAction('biblioteka-real...')
+#1 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('biblioteka-real...')
+#2 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('post/biblioteka...')
+#3 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#4 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#5 {main} REQUEST_URI=/post/biblioteka-realizovanaya-na/%255C%2522/
+2011/11/05 04:09:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "biblioteka-realizovanaya-na".' in /home/pamparam/pamparam.net/www/framework/web/CController.php:439
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CController.php(262): CController->missingAction('biblioteka-real...')
+#1 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('biblioteka-real...')
+#2 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('post/biblioteka...')
+#3 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#4 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#5 {main} REQUEST_URI=/post/biblioteka-realizovanaya-na/%255C%2522/
+2011/11/05 04:09:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "biblioteka-realizovanaya-na/%5C%22".' in /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php:314
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('biblioteka-real...')
+#1 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/biblioteka-realizovanaya-na/%255C%2522/
+2011/11/05 04:33:35 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebUser.status".' in /home/pamparam/pamparam.net/www/framework/base/CComponent.php:120
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/auth/CWebUser.php(97): CComponent->__get('status')
+#1 /home/pamparam/pamparam.net/www/themes/pamparam/views/post/_post.php(44): CWebUser->__get('status')
+#2 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#3 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#4 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#5 /home/pamparam/pamparam.net/www/themes/pamparam/views/category/show.php(6): CController->renderPartial('../post/_post', Array)
+#6 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#7 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#8 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#9 /home/pamparam/pamparam.net/www/framework/web/CController.php(645): CController->renderPartial('show', Array, true)
+#10 /home/pamparam/pamparam.net/www/protected/controllers/CategoryController.php(68): CController->render('show', Array)
+#11 /home/pamparam/pamparam.net/www/framework/web/actions/CInlineAction.php(32): CategoryController->actionShow()
+#12 /home/pamparam/pamparam.net/www/framework/web/CController.php(300): CInlineAction->run()
+#13 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(129): CController->runAction(Object(CInlineAction))
+#14 /home/pamparam/pamparam.net/www/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#15 /home/pamparam/pamparam.net/www/framework/web/CController.php(957): CFilter->filter(Object(CFilterChain))
+#16 /home/pamparam/pamparam.net/www/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#18 /home/pamparam/pamparam.net/www/framework/web/CController.php(283): CFilterChain->run()
+#19 /home/pamparam/pamparam.net/www/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('show')
+#21 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('category/show')
+#22 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#23 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#24 {main} REQUEST_URI=/cate/troki
+2011/11/05 09:48:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "labels.rdf".' in /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php:314
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('labels.rdf')
+#1 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/labels.rdf
+2011/11/05 10:48:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php:314
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('favicon.ico')
+#1 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/11/05 11:40:07 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebUser.status".' in /home/pamparam/pamparam.net/www/framework/base/CComponent.php:120
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/auth/CWebUser.php(97): CComponent->__get('status')
+#1 /home/pamparam/pamparam.net/www/themes/pamparam/views/post/_post.php(44): CWebUser->__get('status')
+#2 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#3 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#4 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#5 /home/pamparam/pamparam.net/www/themes/pamparam/views/category/show.php(6): CController->renderPartial('../post/_post', Array)
+#6 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#7 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#8 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#9 /home/pamparam/pamparam.net/www/framework/web/CController.php(645): CController->renderPartial('show', Array, true)
+#10 /home/pamparam/pamparam.net/www/protected/controllers/CategoryController.php(68): CController->render('show', Array)
+#11 /home/pamparam/pamparam.net/www/framework/web/actions/CInlineAction.php(32): CategoryController->actionShow()
+#12 /home/pamparam/pamparam.net/www/framework/web/CController.php(300): CInlineAction->run()
+#13 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(129): CController->runAction(Object(CInlineAction))
+#14 /home/pamparam/pamparam.net/www/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#15 /home/pamparam/pamparam.net/www/framework/web/CController.php(957): CFilter->filter(Object(CFilterChain))
+#16 /home/pamparam/pamparam.net/www/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#18 /home/pamparam/pamparam.net/www/framework/web/CController.php(283): CFilterChain->run()
+#19 /home/pamparam/pamparam.net/www/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('show')
+#21 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('category/show')
+#22 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#23 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#24 {main} REQUEST_URI=/cate/moi-proekti
+2011/11/05 11:41:07 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebUser.status".' in /home/pamparam/pamparam.net/www/framework/base/CComponent.php:120
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/auth/CWebUser.php(97): CComponent->__get('status')
+#1 /home/pamparam/pamparam.net/www/protected/controllers/PageController.php(167): CWebUser->__get('status')
+#2 /home/pamparam/pamparam.net/www/protected/controllers/PageController.php(54): PageController->loadPageSlug()
+#3 /home/pamparam/pamparam.net/www/framework/web/actions/CInlineAction.php(32): PageController->actionShow()
+#4 /home/pamparam/pamparam.net/www/framework/web/CController.php(300): CInlineAction->run()
+#5 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(129): CController->runAction(Object(CInlineAction))
+#6 /home/pamparam/pamparam.net/www/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /home/pamparam/pamparam.net/www/framework/web/CController.php(957): CFilter->filter(Object(CFilterChain))
+#8 /home/pamparam/pamparam.net/www/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#10 /home/pamparam/pamparam.net/www/framework/web/CController.php(283): CFilterChain->run()
+#11 /home/pamparam/pamparam.net/www/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('show')
+#13 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('page/show')
+#14 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#15 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#16 {main} REQUEST_URI=/page/pro-menya
+2011/11/05 14:37:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "yii-blog-new".' in /home/pamparam/pamparam.net/www/framework/web/CController.php:439
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CController.php(262): CController->missingAction('yii-blog-new')
+#1 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('yii-blog-new')
+#2 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('post/yii-blog-n...')
+#3 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#4 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#5 {main} REQUEST_URI=/post/yii-blog-new/index.php
+2011/11/05 14:44:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "yii-blog-new".' in /home/pamparam/pamparam.net/www/framework/web/CController.php:439
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CController.php(262): CController->missingAction('yii-blog-new')
+#1 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('yii-blog-new')
+#2 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('post/yii-blog-n...')
+#3 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#4 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#5 {main} REQUEST_URI=/post/yii-blog-new/trackback
+2011/11/05 15:32:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php:314
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('favicon.ico')
+#1 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/11/05 16:38:36 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebUser.status".' in /home/pamparam/pamparam.net/www/framework/base/CComponent.php:120
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/auth/CWebUser.php(97): CComponent->__get('status')
+#1 /home/pamparam/pamparam.net/www/themes/pamparam/views/post/_post.php(44): CWebUser->__get('status')
+#2 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#3 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#4 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#5 /home/pamparam/pamparam.net/www/themes/pamparam/views/category/show.php(6): CController->renderPartial('../post/_post', Array)
+#6 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#7 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#8 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#9 /home/pamparam/pamparam.net/www/framework/web/CController.php(645): CController->renderPartial('show', Array, true)
+#10 /home/pamparam/pamparam.net/www/protected/controllers/CategoryController.php(68): CController->render('show', Array)
+#11 /home/pamparam/pamparam.net/www/framework/web/actions/CInlineAction.php(32): CategoryController->actionShow()
+#12 /home/pamparam/pamparam.net/www/framework/web/CController.php(300): CInlineAction->run()
+#13 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(129): CController->runAction(Object(CInlineAction))
+#14 /home/pamparam/pamparam.net/www/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#15 /home/pamparam/pamparam.net/www/framework/web/CController.php(957): CFilter->filter(Object(CFilterChain))
+#16 /home/pamparam/pamparam.net/www/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#18 /home/pamparam/pamparam.net/www/framework/web/CController.php(283): CFilterChain->run()
+#19 /home/pamparam/pamparam.net/www/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('show')
+#21 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('category/show')
+#22 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#23 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#24 {main} REQUEST_URI=/cate/moi-proekti
+2011/11/05 16:38:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php:314
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('favicon.ico')
+#1 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/11/05 17:32:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "samij-malenkij-tttorial-kohana".' in /home/pamparam/pamparam.net/www/framework/web/CController.php:439
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CController.php(262): CController->missingAction('samij-malenkij-...')
+#1 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('samij-malenkij-...')
+#2 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('post/samij-male...')
+#3 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#4 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#5 {main} REQUEST_URI=/post/samij-malenkij-tttorial-kohana/trackback
+2011/11/05 20:07:02 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebUser.status".' in /home/pamparam/pamparam.net/www/framework/base/CComponent.php:120
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/auth/CWebUser.php(97): CComponent->__get('status')
+#1 /home/pamparam/pamparam.net/www/themes/pamparam/views/post/_post.php(44): CWebUser->__get('status')
+#2 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#3 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#4 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#5 /home/pamparam/pamparam.net/www/themes/pamparam/views/category/show.php(6): CController->renderPartial('../post/_post', Array)
+#6 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#7 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#8 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#9 /home/pamparam/pamparam.net/www/framework/web/CController.php(645): CController->renderPartial('show', Array, true)
+#10 /home/pamparam/pamparam.net/www/protected/controllers/CategoryController.php(68): CController->render('show', Array)
+#11 /home/pamparam/pamparam.net/www/framework/web/actions/CInlineAction.php(32): CategoryController->actionShow()
+#12 /home/pamparam/pamparam.net/www/framework/web/CController.php(300): CInlineAction->run()
+#13 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(129): CController->runAction(Object(CInlineAction))
+#14 /home/pamparam/pamparam.net/www/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#15 /home/pamparam/pamparam.net/www/framework/web/CController.php(957): CFilter->filter(Object(CFilterChain))
+#16 /home/pamparam/pamparam.net/www/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#18 /home/pamparam/pamparam.net/www/framework/web/CController.php(283): CFilterChain->run()
+#19 /home/pamparam/pamparam.net/www/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('show')
+#21 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('category/show')
+#22 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#23 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#24 {main} REQUEST_URI=/cate/frameworks
+2011/11/05 21:40:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php:314
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('favicon.ico')
+#1 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/11/05 23:15:04 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebUser.status".' in /home/pamparam/pamparam.net/www/framework/base/CComponent.php:120
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/auth/CWebUser.php(97): CComponent->__get('status')
+#1 /home/pamparam/pamparam.net/www/themes/pamparam/views/post/_post.php(44): CWebUser->__get('status')
+#2 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#3 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#4 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#5 /home/pamparam/pamparam.net/www/themes/pamparam/views/category/show.php(6): CController->renderPartial('../post/_post', Array)
+#6 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#7 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#8 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#9 /home/pamparam/pamparam.net/www/framework/web/CController.php(645): CController->renderPartial('show', Array, true)
+#10 /home/pamparam/pamparam.net/www/protected/controllers/CategoryController.php(68): CController->render('show', Array)
+#11 /home/pamparam/pamparam.net/www/framework/web/actions/CInlineAction.php(32): CategoryController->actionShow()
+#12 /home/pamparam/pamparam.net/www/framework/web/CController.php(300): CInlineAction->run()
+#13 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(129): CController->runAction(Object(CInlineAction))
+#14 /home/pamparam/pamparam.net/www/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#15 /home/pamparam/pamparam.net/www/framework/web/CController.php(957): CFilter->filter(Object(CFilterChain))
+#16 /home/pamparam/pamparam.net/www/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#18 /home/pamparam/pamparam.net/www/framework/web/CController.php(283): CFilterChain->run()
+#19 /home/pamparam/pamparam.net/www/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('show')
+#21 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('category/show')
+#22 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#23 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#24 {main} REQUEST_URI=/cate/moi-proekti
+2011/11/05 23:15:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php:314
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('favicon.ico')
+#1 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/11/06 01:43:51 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebUser.status".' in /home/pamparam/pamparam.net/www/framework/base/CComponent.php:120
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/auth/CWebUser.php(97): CComponent->__get('status')
+#1 /home/pamparam/pamparam.net/www/protected/controllers/PageController.php(167): CWebUser->__get('status')
+#2 /home/pamparam/pamparam.net/www/protected/controllers/PageController.php(54): PageController->loadPageSlug()
+#3 /home/pamparam/pamparam.net/www/framework/web/actions/CInlineAction.php(32): PageController->actionShow()
+#4 /home/pamparam/pamparam.net/www/framework/web/CController.php(300): CInlineAction->run()
+#5 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(129): CController->runAction(Object(CInlineAction))
+#6 /home/pamparam/pamparam.net/www/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /home/pamparam/pamparam.net/www/framework/web/CController.php(957): CFilter->filter(Object(CFilterChain))
+#8 /home/pamparam/pamparam.net/www/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#10 /home/pamparam/pamparam.net/www/framework/web/CController.php(283): CFilterChain->run()
+#11 /home/pamparam/pamparam.net/www/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('show')
+#13 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('page/show')
+#14 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#15 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#16 {main} REQUEST_URI=/page/pro-menya
+2011/11/06 03:30:18 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebUser.status".' in /home/pamparam/pamparam.net/www/framework/base/CComponent.php:120
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/auth/CWebUser.php(97): CComponent->__get('status')
+#1 /home/pamparam/pamparam.net/www/themes/pamparam/views/post/_post.php(44): CWebUser->__get('status')
+#2 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#3 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#4 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#5 /home/pamparam/pamparam.net/www/themes/pamparam/views/category/show.php(6): CController->renderPartial('../post/_post', Array)
+#6 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#7 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#8 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#9 /home/pamparam/pamparam.net/www/framework/web/CController.php(645): CController->renderPartial('show', Array, true)
+#10 /home/pamparam/pamparam.net/www/protected/controllers/CategoryController.php(68): CController->render('show', Array)
+#11 /home/pamparam/pamparam.net/www/framework/web/actions/CInlineAction.php(32): CategoryController->actionShow()
+#12 /home/pamparam/pamparam.net/www/framework/web/CController.php(300): CInlineAction->run()
+#13 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(129): CController->runAction(Object(CInlineAction))
+#14 /home/pamparam/pamparam.net/www/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#15 /home/pamparam/pamparam.net/www/framework/web/CController.php(957): CFilter->filter(Object(CFilterChain))
+#16 /home/pamparam/pamparam.net/www/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#18 /home/pamparam/pamparam.net/www/framework/web/CController.php(283): CFilterChain->run()
+#19 /home/pamparam/pamparam.net/www/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('show')
+#21 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('category/show')
+#22 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#23 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#24 {main} REQUEST_URI=/cate/frameworks
+2011/11/06 03:31:04 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebUser.status".' in /home/pamparam/pamparam.net/www/framework/base/CComponent.php:120
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/auth/CWebUser.php(97): CComponent->__get('status')
+#1 /home/pamparam/pamparam.net/www/themes/pamparam/views/post/_post.php(44): CWebUser->__get('status')
+#2 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#3 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#4 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#5 /home/pamparam/pamparam.net/www/themes/pamparam/views/category/show.php(6): CController->renderPartial('../post/_post', Array)
+#6 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#7 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#8 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#9 /home/pamparam/pamparam.net/www/framework/web/CController.php(645): CController->renderPartial('show', Array, true)
+#10 /home/pamparam/pamparam.net/www/protected/controllers/CategoryController.php(68): CController->render('show', Array)
+#11 /home/pamparam/pamparam.net/www/framework/web/actions/CInlineAction.php(32): CategoryController->actionShow()
+#12 /home/pamparam/pamparam.net/www/framework/web/CController.php(300): CInlineAction->run()
+#13 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(129): CController->runAction(Object(CInlineAction))
+#14 /home/pamparam/pamparam.net/www/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#15 /home/pamparam/pamparam.net/www/framework/web/CController.php(957): CFilter->filter(Object(CFilterChain))
+#16 /home/pamparam/pamparam.net/www/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#18 /home/pamparam/pamparam.net/www/framework/web/CController.php(283): CFilterChain->run()
+#19 /home/pamparam/pamparam.net/www/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('show')
+#21 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('category/show')
+#22 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#23 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#24 {main} REQUEST_URI=/cate/igri
+2011/11/06 03:33:19 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebUser.status".' in /home/pamparam/pamparam.net/www/framework/base/CComponent.php:120
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/auth/CWebUser.php(97): CComponent->__get('status')
+#1 /home/pamparam/pamparam.net/www/themes/pamparam/views/post/_post.php(44): CWebUser->__get('status')
+#2 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#3 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#4 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#5 /home/pamparam/pamparam.net/www/themes/pamparam/views/category/show.php(6): CController->renderPartial('../post/_post', Array)
+#6 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#7 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#8 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#9 /home/pamparam/pamparam.net/www/framework/web/CController.php(645): CController->renderPartial('show', Array, true)
+#10 /home/pamparam/pamparam.net/www/protected/controllers/CategoryController.php(68): CController->render('show', Array)
+#11 /home/pamparam/pamparam.net/www/framework/web/actions/CInlineAction.php(32): CategoryController->actionShow()
+#12 /home/pamparam/pamparam.net/www/framework/web/CController.php(300): CInlineAction->run()
+#13 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(129): CController->runAction(Object(CInlineAction))
+#14 /home/pamparam/pamparam.net/www/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#15 /home/pamparam/pamparam.net/www/framework/web/CController.php(957): CFilter->filter(Object(CFilterChain))
+#16 /home/pamparam/pamparam.net/www/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#18 /home/pamparam/pamparam.net/www/framework/web/CController.php(283): CFilterChain->run()
+#19 /home/pamparam/pamparam.net/www/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('show')
+#21 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('category/show')
+#22 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#23 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#24 {main} REQUEST_URI=/cate/kino
+2011/11/06 03:33:57 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebUser.status".' in /home/pamparam/pamparam.net/www/framework/base/CComponent.php:120
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/auth/CWebUser.php(97): CComponent->__get('status')
+#1 /home/pamparam/pamparam.net/www/themes/pamparam/views/post/_post.php(44): CWebUser->__get('status')
+#2 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#3 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#4 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#5 /home/pamparam/pamparam.net/www/themes/pamparam/views/category/show.php(6): CController->renderPartial('../post/_post', Array)
+#6 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#7 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#8 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#9 /home/pamparam/pamparam.net/www/framework/web/CController.php(645): CController->renderPartial('show', Array, true)
+#10 /home/pamparam/pamparam.net/www/protected/controllers/CategoryController.php(68): CController->render('show', Array)
+#11 /home/pamparam/pamparam.net/www/framework/web/actions/CInlineAction.php(32): CategoryController->actionShow()
+#12 /home/pamparam/pamparam.net/www/framework/web/CController.php(300): CInlineAction->run()
+#13 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(129): CController->runAction(Object(CInlineAction))
+#14 /home/pamparam/pamparam.net/www/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#15 /home/pamparam/pamparam.net/www/framework/web/CController.php(957): CFilter->filter(Object(CFilterChain))
+#16 /home/pamparam/pamparam.net/www/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#18 /home/pamparam/pamparam.net/www/framework/web/CController.php(283): CFilterChain->run()
+#19 /home/pamparam/pamparam.net/www/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('show')
+#21 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('category/show')
+#22 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#23 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#24 {main} REQUEST_URI=/cate/mtzika
+2011/11/06 05:51:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "registration/ [PLM=0][R] POST http://www.pamparam.net/registration/ [0,0,20176]".' in /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php:314
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('registration/ [...')
+#1 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/registration/+[PLM=0][R]+POST+http://www.pamparam.net/registration/+[0,0,20176]
+2011/11/06 05:51:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "registration/ [PLM=0][R] POST http://www.pamparam.net/registration/ [0,0,20176]".' in /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php:314
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('registration/ [...')
+#1 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/registration/+[PLM=0][R]+POST+http://www.pamparam.net/registration/+[0,0,20176]
+2011/11/06 05:52:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос " [PLM=0][R] POST http://www.pamparam.net/registration/ [0,0,20176]".' in /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php:314
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController(' [PLM=0][R] POS...')
+#1 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/+[PLM=0][R]+POST+http://www.pamparam.net/registration/+[0,0,20176]
+2011/11/06 09:11:35 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebUser.status".' in /home/pamparam/pamparam.net/www/framework/base/CComponent.php:120
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/auth/CWebUser.php(97): CComponent->__get('status')
+#1 /home/pamparam/pamparam.net/www/themes/pamparam/views/post/_post.php(44): CWebUser->__get('status')
+#2 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#3 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#4 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#5 /home/pamparam/pamparam.net/www/themes/pamparam/views/category/show.php(6): CController->renderPartial('../post/_post', Array)
+#6 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#7 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#8 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#9 /home/pamparam/pamparam.net/www/framework/web/CController.php(645): CController->renderPartial('show', Array, true)
+#10 /home/pamparam/pamparam.net/www/protected/controllers/CategoryController.php(68): CController->render('show', Array)
+#11 /home/pamparam/pamparam.net/www/framework/web/actions/CInlineAction.php(32): CategoryController->actionShow()
+#12 /home/pamparam/pamparam.net/www/framework/web/CController.php(300): CInlineAction->run()
+#13 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(129): CController->runAction(Object(CInlineAction))
+#14 /home/pamparam/pamparam.net/www/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#15 /home/pamparam/pamparam.net/www/framework/web/CController.php(957): CFilter->filter(Object(CFilterChain))
+#16 /home/pamparam/pamparam.net/www/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#18 /home/pamparam/pamparam.net/www/framework/web/CController.php(283): CFilterChain->run()
+#19 /home/pamparam/pamparam.net/www/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('show')
+#21 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('category/show')
+#22 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#23 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#24 {main} REQUEST_URI=/cate/igri
+2011/11/06 09:32:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php:314
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('favicon.ico')
+#1 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/11/06 09:32:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.gif".' in /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php:314
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('favicon.gif')
+#1 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.gif
+2011/11/06 09:46:30 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebUser.status".' in /home/pamparam/pamparam.net/www/framework/base/CComponent.php:120
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/auth/CWebUser.php(97): CComponent->__get('status')
+#1 /home/pamparam/pamparam.net/www/themes/pamparam/views/post/_post.php(44): CWebUser->__get('status')
+#2 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#3 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#4 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#5 /home/pamparam/pamparam.net/www/themes/pamparam/views/category/show.php(6): CController->renderPartial('../post/_post', Array)
+#6 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#7 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#8 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#9 /home/pamparam/pamparam.net/www/framework/web/CController.php(645): CController->renderPartial('show', Array, true)
+#10 /home/pamparam/pamparam.net/www/protected/controllers/CategoryController.php(68): CController->render('show', Array)
+#11 /home/pamparam/pamparam.net/www/framework/web/actions/CInlineAction.php(32): CategoryController->actionShow()
+#12 /home/pamparam/pamparam.net/www/framework/web/CController.php(300): CInlineAction->run()
+#13 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(129): CController->runAction(Object(CInlineAction))
+#14 /home/pamparam/pamparam.net/www/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#15 /home/pamparam/pamparam.net/www/framework/web/CController.php(957): CFilter->filter(Object(CFilterChain))
+#16 /home/pamparam/pamparam.net/www/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#18 /home/pamparam/pamparam.net/www/framework/web/CController.php(283): CFilterChain->run()
+#19 /home/pamparam/pamparam.net/www/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('show')
+#21 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('category/show')
+#22 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#23 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#24 {main} REQUEST_URI=/cate/moi-proekti
+2011/11/06 09:46:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php:314
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('favicon.ico')
+#1 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/11/06 12:22:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "yii-blog-new".' in /home/pamparam/pamparam.net/www/framework/web/CController.php:439
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CController.php(262): CController->missingAction('yii-blog-new')
+#1 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('yii-blog-new')
+#2 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('post/yii-blog-n...')
+#3 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#4 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#5 {main} REQUEST_URI=/post/yii-blog-new/index.php
+2011/11/06 13:31:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php:314
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('favicon.ico')
+#1 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/11/06 13:31:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php:314
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('favicon.ico')
+#1 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/11/06 13:32:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php:314
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('favicon.ico')
+#1 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/11/06 13:45:34 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebUser.status".' in /home/pamparam/pamparam.net/www/framework/base/CComponent.php:120
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/auth/CWebUser.php(97): CComponent->__get('status')
+#1 /home/pamparam/pamparam.net/www/themes/pamparam/views/post/_post.php(44): CWebUser->__get('status')
+#2 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#3 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#4 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#5 /home/pamparam/pamparam.net/www/themes/pamparam/views/category/show.php(6): CController->renderPartial('../post/_post', Array)
+#6 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#7 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#8 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#9 /home/pamparam/pamparam.net/www/framework/web/CController.php(645): CController->renderPartial('show', Array, true)
+#10 /home/pamparam/pamparam.net/www/protected/controllers/CategoryController.php(68): CController->render('show', Array)
+#11 /home/pamparam/pamparam.net/www/framework/web/actions/CInlineAction.php(32): CategoryController->actionShow()
+#12 /home/pamparam/pamparam.net/www/framework/web/CController.php(300): CInlineAction->run()
+#13 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(129): CController->runAction(Object(CInlineAction))
+#14 /home/pamparam/pamparam.net/www/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#15 /home/pamparam/pamparam.net/www/framework/web/CController.php(957): CFilter->filter(Object(CFilterChain))
+#16 /home/pamparam/pamparam.net/www/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#18 /home/pamparam/pamparam.net/www/framework/web/CController.php(283): CFilterChain->run()
+#19 /home/pamparam/pamparam.net/www/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('show')
+#21 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('category/show')
+#22 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#23 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#24 {main} REQUEST_URI=/cate/moi-proekti
+2011/11/06 13:45:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php:314
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('favicon.ico')
+#1 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/11/06 14:42:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php:314
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('favicon.ico')
+#1 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/11/06 15:03:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php:314
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('favicon.ico')
+#1 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2011/11/06 17:17:04 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebUser.status".' in /home/pamparam/pamparam.net/www/framework/base/CComponent.php:120
+Stack trace:
+#0 /home/pamparam/pamparam.net/www/framework/web/auth/CWebUser.php(97): CComponent->__get('status')
+#1 /home/pamparam/pamparam.net/www/themes/pamparam/views/post/_post.php(44): CWebUser->__get('status')
+#2 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#3 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#4 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#5 /home/pamparam/pamparam.net/www/themes/pamparam/views/category/show.php(6): CController->renderPartial('../post/_post', Array)
+#6 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(119): require('/home/pamparam/...')
+#7 /home/pamparam/pamparam.net/www/framework/web/CBaseController.php(88): CBaseController->renderInternal('/home/pamparam/...', Array, true)
+#8 /home/pamparam/pamparam.net/www/framework/web/CController.php(706): CBaseController->renderFile('/home/pamparam/...', Array, true)
+#9 /home/pamparam/pamparam.net/www/framework/web/CController.php(645): CController->renderPartial('show', Array, true)
+#10 /home/pamparam/pamparam.net/www/protected/controllers/CategoryController.php(68): CController->render('show', Array)
+#11 /home/pamparam/pamparam.net/www/framework/web/actions/CInlineAction.php(32): CategoryController->actionShow()
+#12 /home/pamparam/pamparam.net/www/framework/web/CController.php(300): CInlineAction->run()
+#13 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(129): CController->runAction(Object(CInlineAction))
+#14 /home/pamparam/pamparam.net/www/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#15 /home/pamparam/pamparam.net/www/framework/web/CController.php(957): CFilter->filter(Object(CFilterChain))
+#16 /home/pamparam/pamparam.net/www/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 /home/pamparam/pamparam.net/www/framework/web/filters/CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#18 /home/pamparam/pamparam.net/www/framework/web/CController.php(283): CFilterChain->run()
+#19 /home/pamparam/pamparam.net/www/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(310): CController->run('show')
+#21 /home/pamparam/pamparam.net/www/framework/web/CWebApplication.php(120): CWebApplication->runController('category/show')
+#22 /home/pamparam/pamparam.net/www/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#23 /home/pamparam/pamparam.net/www/index.php(11): CApplication->run()
+#24 {main} REQUEST_URI=/cate/troki
+2011/11/06 16:43:59 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection не удалось открыть соединение с базой данных: SQLSTATE[42000] [1049] Unknown database 'pamparam_db'' in C:\wamp\www\pamparam_old\framework\db\CDbConnection.php:255
+Stack trace:
+#0 C:\wamp\www\pamparam_old\framework\db\CDbConnection.php(230): CDbConnection->open()
+#1 C:\wamp\www\pamparam_old\framework\db\CDbConnection.php(209): CDbConnection->setActive(true)
+#2 C:\wamp\www\pamparam_old\framework\base\CModule.php(353): CDbConnection->init()
+#3 C:\wamp\www\pamparam_old\framework\base\CApplication.php(373): CModule->getComponent('db')
+#4 C:\wamp\www\pamparam_old\framework\db\ar\CActiveRecord.php(876): CApplication->getDb()
+#5 C:\wamp\www\pamparam_old\framework\db\ar\CActiveRecord.php(2252): CActiveRecord->getDbConnection()
+#6 C:\wamp\www\pamparam_old\framework\db\ar\CActiveRecord.php(656): CActiveRecordMetaData->__construct(Object(Post))
+#7 C:\wamp\www\pamparam_old\protected\models\Post.php(37): CActiveRecord::model('Post')
+#8 C:\wamp\www\pamparam_old\protected\controllers\PostController.php(164): Post::model()
+#9 C:\wamp\www\pamparam_old\framework\web\actions\CInlineAction.php(32): PostController->actionList()
+#10 C:\wamp\www\pamparam_old\framework\web\CController.php(300): CInlineAction->run()
+#11 C:\wamp\www\pamparam_old\framework\web\filters\CFilterChain.php(129): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\www\pamparam_old\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 C:\wamp\www\pamparam_old\framework\web\CController.php(957): CFilter->filter(Object(CFilterChain))
+#14 C:\wamp\www\pamparam_old\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\wamp\www\pamparam_old\framework\web\filters\CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\wamp\www\pamparam_old\framework\web\CController.php(283): CFilterChain->run()
+#17 C:\wamp\www\pamparam_old\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\pamparam_old\framework\web\CWebApplication.php(310): CController->run('')
+#19 C:\wamp\www\pamparam_old\framework\web\CWebApplication.php(120): CWebApplication->runController('')
+#20 C:\wamp\www\pamparam_old\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#21 C:\wamp\www\pamparam_old\index.php(11): CApplication->run()
+#22 {main} REQUEST_URI=/pamparam_old/
+2011/11/06 16:49:29 [error] [php] Undefined index: id (C:\wamp\www\pamparam_old\protected\controllers\UserController.php:58)
+Stack trace:
+#0 C:\wamp\www\pamparam_old\framework\web\filters\CFilterChain.php(126): CInlineFilter->filter()
+#1 C:\wamp\www\pamparam_old\framework\web\CController.php(283): CFilterChain->run()
+#2 C:\wamp\www\pamparam_old\framework\web\CController.php(257): UserController->runActionWithFilters()
+#3 C:\wamp\www\pamparam_old\framework\web\CWebApplication.php(310): UserController->run()
+#4 C:\wamp\www\pamparam_old\framework\web\CWebApplication.php(120): CWebApplication->runController()
+#5 C:\wamp\www\pamparam_old\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#6 C:\wamp\www\pamparam_old\index.php(11): CWebApplication->run()
+REQUEST_URI=/pamparam_old/login
+2011/11/06 16:49:39 [error] [php] Undefined index: id (C:\wamp\www\pamparam_old\protected\controllers\UserController.php:58)
+Stack trace:
+#0 C:\wamp\www\pamparam_old\framework\web\filters\CFilterChain.php(126): CInlineFilter->filter()
+#1 C:\wamp\www\pamparam_old\framework\web\CController.php(283): CFilterChain->run()
+#2 C:\wamp\www\pamparam_old\framework\web\CController.php(257): UserController->runActionWithFilters()
+#3 C:\wamp\www\pamparam_old\framework\web\CWebApplication.php(310): UserController->run()
+#4 C:\wamp\www\pamparam_old\framework\web\CWebApplication.php(120): CWebApplication->runController()
+#5 C:\wamp\www\pamparam_old\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#6 C:\wamp\www\pamparam_old\index.php(11): CWebApplication->run()
+REQUEST_URI=/pamparam_old/registration
+2011/11/06 16:49:47 [error] [php] Undefined variable: id (C:\wamp\www\pamparam_old\protected\controllers\CategoryController.php:190)
+Stack trace:
+#0 C:\wamp\www\pamparam_old\framework\web\CController.php(300): CInlineAction->run()
+#1 C:\wamp\www\pamparam_old\framework\web\filters\CFilterChain.php(129): CategoryController->runAction()
+#2 C:\wamp\www\pamparam_old\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\wamp\www\pamparam_old\framework\web\CController.php(957): CAccessControlFilter->filter()
+#4 C:\wamp\www\pamparam_old\framework\web\filters\CInlineFilter.php(59): CategoryController->filterAccessControl()
+#5 C:\wamp\www\pamparam_old\framework\web\filters\CFilterChain.php(126): CInlineFilter->filter()
+#6 C:\wamp\www\pamparam_old\framework\web\CController.php(283): CFilterChain->run()
+#7 C:\wamp\www\pamparam_old\framework\web\CController.php(257): CategoryController->runActionWithFilters()
+#8 C:\wamp\www\pamparam_old\framework\web\CWebApplication.php(310): CategoryController->run()
+#9 C:\wamp\www\pamparam_old\framework\web\CWebApplication.php(120): CWebApplication->runController()
+#10 C:\wamp\www\pamparam_old\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#11 C:\wamp\www\pamparam_old\index.php(11): CWebApplication->run()
+REQUEST_URI=/pamparam_old/cate/moi-proekti
+2011/11/06 16:49:49 [error] [php] Undefined variable: id (C:\wamp\www\pamparam_old\protected\controllers\PageController.php:165)
+Stack trace:
+#0 C:\wamp\www\pamparam_old\framework\web\CController.php(300): CInlineAction->run()
+#1 C:\wamp\www\pamparam_old\framework\web\filters\CFilterChain.php(129): PageController->runAction()
+#2 C:\wamp\www\pamparam_old\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\wamp\www\pamparam_old\framework\web\CController.php(957): CAccessControlFilter->filter()
+#4 C:\wamp\www\pamparam_old\framework\web\filters\CInlineFilter.php(59): PageController->filterAccessControl()
+#5 C:\wamp\www\pamparam_old\framework\web\filters\CFilterChain.php(126): CInlineFilter->filter()
+#6 C:\wamp\www\pamparam_old\framework\web\CController.php(283): CFilterChain->run()
+#7 C:\wamp\www\pamparam_old\framework\web\CController.php(257): PageController->runActionWithFilters()
+#8 C:\wamp\www\pamparam_old\framework\web\CWebApplication.php(310): PageController->run()
+#9 C:\wamp\www\pamparam_old\framework\web\CWebApplication.php(120): CWebApplication->runController()
+#10 C:\wamp\www\pamparam_old\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#11 C:\wamp\www\pamparam_old\index.php(11): CWebApplication->run()
+REQUEST_URI=/pamparam_old/page/pro-menya
+2011/11/06 16:51:03 [error] [php] Use of undefined constant ERROR_NONE - assumed 'ERROR_NONE' (C:\wamp\www\pamparam_old\protected\components\BaseController.php:11)
+Stack trace:
+#0 C:\wamp\www\pamparam_old\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#1 C:\wamp\www\pamparam_old\index.php(11): CWebApplication->run()
+REQUEST_URI=/pamparam_old/
+2011/11/06 16:51:09 [error] [php] Use of undefined constant ERROR_NONE - assumed 'ERROR_NONE' (C:\wamp\www\pamparam_old\protected\components\BaseController.php:11)
+Stack trace:
+#0 C:\wamp\www\pamparam_old\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#1 C:\wamp\www\pamparam_old\index.php(11): CWebApplication->run()
+REQUEST_URI=/pamparam_old/
+2011/11/06 16:51:19 [error] [php] Use of undefined constant ERROR_NONE - assumed 'ERROR_NONE' (C:\wamp\www\pamparam_old\protected\components\BaseController.php:11)
+Stack trace:
+#0 C:\wamp\www\pamparam_old\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#1 C:\wamp\www\pamparam_old\index.php(11): CWebApplication->run()
+REQUEST_URI=/pamparam_old/
+2011/11/06 16:51:21 [error] [php] Use of undefined constant ERROR_NONE - assumed 'ERROR_NONE' (C:\wamp\www\pamparam_old\protected\components\BaseController.php:11)
+Stack trace:
+#0 C:\wamp\www\pamparam_old\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#1 C:\wamp\www\pamparam_old\index.php(11): CWebApplication->run()
+REQUEST_URI=/pamparam_old/
+2011/11/06 16:52:18 [error] [php] Undefined index: id (C:\wamp\www\pamparam_old\protected\controllers\UserController.php:58)
+Stack trace:
+#0 C:\wamp\www\pamparam_old\framework\web\filters\CFilterChain.php(126): CInlineFilter->filter()
+#1 C:\wamp\www\pamparam_old\framework\web\CController.php(283): CFilterChain->run()
+#2 C:\wamp\www\pamparam_old\framework\web\CController.php(257): UserController->runActionWithFilters()
+#3 C:\wamp\www\pamparam_old\framework\web\CWebApplication.php(310): UserController->run()
+#4 C:\wamp\www\pamparam_old\framework\web\CWebApplication.php(120): CWebApplication->runController()
+#5 C:\wamp\www\pamparam_old\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#6 C:\wamp\www\pamparam_old\index.php(11): CWebApplication->run()
+REQUEST_URI=/pamparam_old/users
+2011/11/06 16:53:02 [error] [php] Undefined index: davatar (C:\wamp\www\pamparam_old\protected\controllers\UserController.php:238)
+Stack trace:
+#0 C:\wamp\www\pamparam_old\framework\web\filters\CFilterChain.php(129): UserController->runAction()
+#1 C:\wamp\www\pamparam_old\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#2 C:\wamp\www\pamparam_old\framework\web\CController.php(957): CAccessControlFilter->filter()
+#3 C:\wamp\www\pamparam_old\framework\web\filters\CInlineFilter.php(59): UserController->filterAccessControl()
+#4 C:\wamp\www\pamparam_old\framework\web\filters\CFilterChain.php(126): CInlineFilter->filter()
+#5 C:\wamp\www\pamparam_old\framework\web\CController.php(283): CFilterChain->run()
+#6 C:\wamp\www\pamparam_old\framework\web\CController.php(257): UserController->runActionWithFilters()
+#7 C:\wamp\www\pamparam_old\framework\web\CWebApplication.php(310): UserController->run()
+#8 C:\wamp\www\pamparam_old\framework\web\CWebApplication.php(120): CWebApplication->runController()
+#9 C:\wamp\www\pamparam_old\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#10 C:\wamp\www\pamparam_old\index.php(11): CWebApplication->run()
+REQUEST_URI=/pamparam_old/user/update/1
+2011/11/06 16:55:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\wamp\www\pamparam_old\protected\controllers\CategoryController.php:193
+Stack trace:
+#0 C:\wamp\www\pamparam_old\protected\controllers\CategoryController.php(62): CategoryController->loadCategorySlug()
+#1 C:\wamp\www\pamparam_old\framework\web\actions\CInlineAction.php(32): CategoryController->actionShow()
+#2 C:\wamp\www\pamparam_old\framework\web\CController.php(300): CInlineAction->run()
+#3 C:\wamp\www\pamparam_old\framework\web\filters\CFilterChain.php(129): CController->runAction(Object(CInlineAction))
+#4 C:\wamp\www\pamparam_old\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#5 C:\wamp\www\pamparam_old\framework\web\CController.php(957): CFilter->filter(Object(CFilterChain))
+#6 C:\wamp\www\pamparam_old\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\wamp\www\pamparam_old\framework\web\filters\CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\pamparam_old\framework\web\CController.php(283): CFilterChain->run()
+#9 C:\wamp\www\pamparam_old\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\pamparam_old\framework\web\CWebApplication.php(310): CController->run('show')
+#11 C:\wamp\www\pamparam_old\framework\web\CWebApplication.php(120): CWebApplication->runController('category/show')
+#12 C:\wamp\www\pamparam_old\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#13 C:\wamp\www\pamparam_old\index.php(12): CApplication->run()
+#14 {main} REQUEST_URI=/pamparam_old/cate/moi-proekti
+2011/11/06 16:56:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\wamp\www\pamparam_old\protected\controllers\CategoryController.php:193
+Stack trace:
+#0 C:\wamp\www\pamparam_old\protected\controllers\CategoryController.php(62): CategoryController->loadCategorySlug()
+#1 C:\wamp\www\pamparam_old\framework\web\actions\CInlineAction.php(32): CategoryController->actionShow()
+#2 C:\wamp\www\pamparam_old\framework\web\CController.php(300): CInlineAction->run()
+#3 C:\wamp\www\pamparam_old\framework\web\filters\CFilterChain.php(129): CController->runAction(Object(CInlineAction))
+#4 C:\wamp\www\pamparam_old\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#5 C:\wamp\www\pamparam_old\framework\web\CController.php(957): CFilter->filter(Object(CFilterChain))
+#6 C:\wamp\www\pamparam_old\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\wamp\www\pamparam_old\framework\web\filters\CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\pamparam_old\framework\web\CController.php(283): CFilterChain->run()
+#9 C:\wamp\www\pamparam_old\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\pamparam_old\framework\web\CWebApplication.php(310): CController->run('show')
+#11 C:\wamp\www\pamparam_old\framework\web\CWebApplication.php(120): CWebApplication->runController('category/show')
+#12 C:\wamp\www\pamparam_old\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#13 C:\wamp\www\pamparam_old\index.php(12): CApplication->run()
+#14 {main} REQUEST_URI=/pamparam_old/cate/moi-proekti
+2011/11/06 16:56:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\wamp\www\pamparam_old\protected\controllers\CategoryController.php:193
+Stack trace:
+#0 C:\wamp\www\pamparam_old\protected\controllers\CategoryController.php(62): CategoryController->loadCategorySlug()
+#1 C:\wamp\www\pamparam_old\framework\web\actions\CInlineAction.php(32): CategoryController->actionShow()
+#2 C:\wamp\www\pamparam_old\framework\web\CController.php(300): CInlineAction->run()
+#3 C:\wamp\www\pamparam_old\framework\web\filters\CFilterChain.php(129): CController->runAction(Object(CInlineAction))
+#4 C:\wamp\www\pamparam_old\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#5 C:\wamp\www\pamparam_old\framework\web\CController.php(957): CFilter->filter(Object(CFilterChain))
+#6 C:\wamp\www\pamparam_old\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\wamp\www\pamparam_old\framework\web\filters\CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\pamparam_old\framework\web\CController.php(283): CFilterChain->run()
+#9 C:\wamp\www\pamparam_old\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\pamparam_old\framework\web\CWebApplication.php(310): CController->run('show')
+#11 C:\wamp\www\pamparam_old\framework\web\CWebApplication.php(120): CWebApplication->runController('category/show')
+#12 C:\wamp\www\pamparam_old\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#13 C:\wamp\www\pamparam_old\index.php(12): CApplication->run()
+#14 {main} REQUEST_URI=/pamparam_old/cate/moi-proekti
